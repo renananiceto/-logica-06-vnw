@@ -26,38 +26,43 @@ console.log(renan)
 
 let cadastro =[{
     nome : 'Rengar',
-    idade : '(11) 11111-1111',
-    amigos : "kha'zix", 
+    Telefone : '(11) 11111-1111',
+    amigos : ['amigo','amigo1','amigo2','amigo3','amigo4','amigo5'],
+    idade : 18
 },
 {
     nome : 'Miss fortune',
-    idade : '(22) 22222-2222',
-    amigos : 'graves', 
+    Telefone : '(22) 22222-2222',
+    amigos : ['amigo','amigo1','amigo2','amigo3','amigo4','amigo5'],
+    idade : 19
 },
 {
     nome : 'Garen',
-    idade : '(33) 33333-3333',
-    amigos : 'katarina', 
+    Telefone : '(33) 33333-3333',
+    amigos : ['amigo','amigo1','amigo2','amigo3','amigo4','amigo5'],
+    idade : 16
 },
 {
     nome : 'yasuo',
-    idade : '(44) 44444-4444',
-    amigos : "Riven", 
+    Telefone : '(44) 44444-4444',
+    amigos : ['amigo','amigo1','amigo2','amigo3','amigo4','amigo5'],
+    idade : 17
 },
 {
     nome : 'Vi',
-    idade : '(55) 55555-5555',
-    amigos : 'jinx', 
+    Telefone : '(55) 55555-5555',
+    amigos : ['amigo','amigo1','amigo2','amigo3','amigo4','amigo5'],
+    idade : 18
 },
 
 ]
 
 // Mostre no console o nome de um amigo de cada lista.
 
-console.log(cadastro[0].amigos )
-console.log(cadastro[1].amigos )
-console.log(cadastro[2].amigos )
-console.log(cadastro[3].amigos )
-console.log(cadastro[4].amigos )
+console.log(cadastro[0].amigos [1] )
+console.log(cadastro[0].amigos [2] )
+console.log(cadastro[0].amigos [3] )
+console.log(cadastro[0].amigos [4] )
+console.log(cadastro[0].amigos [5] )
 
-console.log(cadastro.map( item =>item.amigos ) )
+// console.log(cadastro.map( item =>item.amigos ) )
